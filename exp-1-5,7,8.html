@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Ramachandra Engineering College</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 80px;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            background: #f4f4f4;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            margin-right: 20px; /* Space between logo and links */
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            color: black;
+            transition: color 0.3s;
+            padding: 8px 15px;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+
+    #admissions .cta-button {
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#admissions .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+        .content {
+            margin-top: 20px;
+        }
+
+        .video-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            max-width: 900px;
+            text-align: left;
+        }
+
+        section ul {
+            list-style-position: inside;
+            padding: 0;
+            text-align: center;
+        }
+
+        section ul li {
+            margin: 10px 0;
+        }
+
+        audio {
+            margin-top: 20px;
+            width: 100%;
+
+        }
+
+    </style>
+    <script>
+        function showAlert(section) {
+            alert("You are now viewing " + section);
+        }
+    </script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="https://www.sriramachandra.edu.in/university/images/nw-images/new-sriher-logo.png" alt="College Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#admissions" onclick="showAlert('Admissions Process')">Admissions</a>
+            <a href="#section1" onclick="showAlert('Campus Facilities')">Campus Facilities</a>
+            <a href="#section2" onclick="showAlert('Academic Programs')">Academic Programs</a>
+            <a href="#section3" onclick="showAlert('Student Life')">Student Life</a>
+        </div>
+    </nav>
+
+    <div class="header">Sri Ramachandra Engineering College</div>
+    <p class="content">
+        <img width="100%" height="520" src="https://scontent.fmaa1-3.fna.fbcdn.net/v/t39.30808-6/433685394_422868533726813_1145389310839191543_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=AohywJzfVlkQ7kNvgHYd_yz&_nc_zt=23&_nc_ht=scontent.fmaa1-3.fna&_nc_gid=AeXOvwKxFrvJ8Po_nlsMNmt&oh=00_AYA-X_smLfA-_rylWIf6gAO-jJl_7cnwxyQSGxySVncLPg&oe=67A37276" alt="Sri Ramachandra">
+    </p>
+
+    <audio controls style="display: block; margin: 20px 0;">
+        <source src="anthem.mp3" type="audio/mpeg">
+        Your browser does not support the audio element. Please try downloading the file instead.
+    </audio>
+
+    <div class="video-container">
+        <iframe width="100%" height="720" src="https://www.youtube.com/embed/VXdDngWgxmo?si=DbDdKUDwxehT_H_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <section id="admissions">
+        <h2>Admissions Process</h2>
+        <p>The admissions process at Sri Ramachandra Engineering College is designed to be straightforward and merit-based. Prospective students can apply through our online portal and must meet the following criteria:</p>
+        <p>Our admission counselors are available to guide you through the process and answer any questions you may have about our programs and facilities.</p>
+        <p>Click the link below to get admission:</p>
+        <a href="exp-9.1.html" class="cta-button">Apply Now</a>
+
+    </section>
+    <section id="section1">
+        <h2>Campus Facilities</h2>
+        <p>Sri Ramachandra Engineering College boasts state-of-the-art facilities, including modern classrooms, well-equipped laboratories, a comprehensive library, and high-speed internet access.</p>
+        <p>The campus also features an auditorium for events and guest lectures, multiple cafeterias offering diverse cuisines, and a sports complex with facilities for indoor and outdoor sports.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Academic Programs</h2>
+        <p>Our college offers a wide range of undergraduate and postgraduate programs in engineering and technology. Students can choose from various specializations, including Artificial Intelligence, Machine Learning, Cyber Security, and Internet of Things.</p>
+
+  <table border="1">
+  <tr>
+    <th>Requirement</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>Academic Qualification</td>
+    <td>Minimum 60% aggregate in 12th standard (PCM)</td>
+  </tr>
+  <tr>
+    <td>Entrance Exam Scores</td>
+    <td>Valid entrance examination scores (JEE/TNEA)</td>
+  </tr>
+  <tr>
+    <td>Application Process</td>
+    <td>Completion of online application form</td>
+  </tr>
+</table>
+        <p>We also provide opportunities for students to participate in research projects, internships, and industry collaborations, ensuring they gain practical experience and skills relevant to their fields.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Student Life</h2>
+        <p>At Sri Ramachandra Engineering College, student life is vibrant and diverse. We encourage students to participate in extracurricular activities, clubs, and organizations. From sports and cultural events to technical fests and hackathons, there is always something exciting happening on campus.</p>
+        <p>The college also has student-run clubs for various interests such as robotics, coding, music, and drama, offering ample opportunities for personal growth and networking.</p>
+    </section>
+
+    <section>
+        <h2>About Sri Ramachandra Engineering College</h2>
+        <p>Sri Ramachandra Engineering College is renowned for its cutting-edge curriculum and state-of-the-art facilities. The college offers a range of programs in emerging technologies such as Artificial Intelligence, Machine Learning, Cyber Security, and Internet of Things.</p>
+        <p>With a strong focus on practical learning and industry collaboration, students are well-prepared for successful careers in the tech industry. The college also boasts an excellent placement record and provides numerous opportunities for research and innovation.</p>
+    </section>
+
+</body>
+</html>
